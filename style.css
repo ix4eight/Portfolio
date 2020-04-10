@@ -1,0 +1,214 @@
+*{
+  box-sizing: border-box;
+}
+.content{
+  background-image: url("image/qwe.jpeg");
+  background-position: center;
+  background-size: auto 100%;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.header{
+  background-color: rgba(0, 0, 0, 0);
+  width: 100vw;
+  height: 100px;
+}
+.lists{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  line-height: 100px;
+}
+.list{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.name{
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 100px;
+  text-shadow: 0 0 10px yellow;
+
+}
+.title{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+  text-shadow: 0 0 10px yellow;
+}
+.content1{
+  background-color: white;
+  width: 100vw;
+  height: 600px;
+}
+.profile{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+.profile-image{
+  background-image: url("image/qwe.jpeg");
+  background-position: center;
+  background-size: auto 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 30px;
+
+}
+.profile-text{
+  padding-top: 70px;
+  font-size: 20px;
+  width: 500px;
+  margin: auto;
+}
+.content2{
+  background-image: url("image/haikei.jpeg");
+  background-position: center;
+  background-size: auto 100%;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+.skill{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+.box3{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.skill-box{
+  padding: 60px;
+  width: 350px;
+  border-radius: 16%;
+  background-color: white;
+}
+.skill-box:hover{
+  box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+  transform: translateY(-4px);
+}
+.skill-title{
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: black;
+}
+.skill-text{
+  font-size: 20px;
+  color: black;
+}
+
+.content3{
+  background-color: rgb(226, 226, 226);
+  width: 100vw;
+  padding: 20px;
+}
+.works{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.works-lists{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.works-list{
+  width: 320px;
+  background-color: white;
+  border: solid 2px white;
+  box-shadow: black;
+  border-radius: 5%;
+  padding: 10px;
+}
+.works-list-url{
+  text-decoration: none;
+}
+.works-list:hover{
+  box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+  transform: translateY(-4px);
+}
+.works-list-title{
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.works-list-text{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.content4{
+  background-image: url("image/papa.jpeg");
+  background-position: center;
+  background-size: auto 100%;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 500px;
+}
+.contact{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact-links{
+  padding-top: 70px;
+  font-size: 100px;
+  
+}
+.mail{
+  color: silver;
+  padding-right: 50px;
+}
+.git{
+  color: rgb(87, 2, 87);
+}
+.twitter{
+  color: skyblue;
+  padding-left: 50px;
+}
+
+.footer{
+  background-color: gray;
+  width: 100vw;
+  height: 100px;
+}
+.footer-title{
+  padding-top: 40px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  text-shadow: 0 0 10px yellow;
+}
+.home{
+  border-radius: 4%;
+  text-align: center;
+  bottom: 32px;
+  right: 32px;
+  width: 120px;
+  z-index: 1000;
+  position: fixed;
+  padding: 15px 0;
+  cursor: pointer;
+  text-shadow: 0 0 10px yellow;
+}
+.home:hover{
+  opacity: 0.7;
+}
+.fa-home{
+  margin-top: 5px;
+  color: white;
+  display: block;
+  font-size: 54px;
+}
