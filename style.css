@@ -103,7 +103,7 @@
   font-size: 30px;
   padding-bottom: 20px;
   color: black;
-  text-shadow: 0 0 10px black;
+  font-weight: bold;
 }
 .skill-text{
   font-size: 20px;
@@ -112,7 +112,7 @@
 }
 
 .content3{
-  background-color: rgb(226, 226, 226);
+  background-color: #FFFFFF;
   width: 100vw;
   padding: 20px;
 }
@@ -123,6 +123,7 @@
   font-weight: bold;
 }
 .works-lists{
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -135,13 +136,14 @@
   border-radius: 5%;
   margin: 10px;
   padding: 10px;
-}
-.works-list-url{
-  text-decoration: none;
+  border: solid 2px black;
 }
 .works-list:hover{
   box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
   transform: translateY(-4px);
+}
+.works-list-url{
+  text-decoration: none;
 }
 .works-list-title{
   padding-bottom: 20px;
