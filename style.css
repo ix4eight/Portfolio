@@ -44,7 +44,7 @@
 .content1{
   background-color: white;
   width: 100vw;
-  height: 700px;
+  height: 800px;
 }
 .profile{
   text-align: center;
@@ -66,9 +66,12 @@
 .profile-text{
   padding-top: 70px;
   font-size: 20px;
-  width: 500px;
+  width: 550px;
   margin: auto;
+  text-align: left;
 }
+
+
 .content2{
   background-image: url("image/haikei.jpeg");
   background-position: center;
